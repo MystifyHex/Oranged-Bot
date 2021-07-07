@@ -7,9 +7,9 @@ module.exports = async (client) => {
   const cron = require("node-cron");
   console.log("Oranged Utilities is online!");
   console.log(`Running in ${client.guilds.cache.size} servers!`);
-  client.user.setActivity("Cosies Videos", {
+  client.user.setActivity("Oranged's Videos", {
     type: "STREAMING",
-    url: "https://www.twitch.tv/cosiesmc"
+    url: "https://www.twitch.tv/oranged5"
   });
 
   const redditData = await reddit.find();
